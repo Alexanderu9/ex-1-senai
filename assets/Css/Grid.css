@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(77, 67, 104);
+    text-align: center;
+    color: white;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 20px;
+    background-color: rgba(104, 49, 177, 0.7);
+}
+
+form {
+    display: grid;
+    gap: 20px; 
+    justify-items: center;
+    width: 100%;
+}
+
+#login, #senha {
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#login, #senha:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#enviar {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(17, 17, 17);
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#enviar:hover {
+    background-color: rgb(59, 57, 57);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
