@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(77, 67, 104);
+    text-align: center;
+    color: white;
+}
+
+.sesi {
+    width: 400px;
+    margin-top: 50px;
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: rgb(255, 255, 255); 
+    margin-top: 200px;
+}
+
+div {
+    display: inline-block;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 50px;
+    font-size: 20px;
+    background-color: rgba(104, 49, 177, 0.7);
+}
+
+
+.login, .senha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#login, #senha {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#login, #senha:hover {
+    border: 2px solid rgb(255, 255, 255);}
+
+#enviar {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(17, 17, 17);
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: none;
+}
+
+#enviar:hover {
+    background-color: rgb(59, 57, 57);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
